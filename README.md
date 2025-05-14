@@ -1,24 +1,6 @@
 Stock Price Prediction Using News Sentiment Analysis
+
 This project predicts stock prices using news sentiment analysis. It utilizes Long Short-Term Memory (LSTM) for stock price prediction and FinBERT for news sentiment analysis. The goal is to predict future stock prices by analyzing both historical stock data and the sentiment of related news articles.
-
-Table of Contents
-Overview
-
-Technologies Used
-
-Dataset
-
-Model Architecture
-
-Installation
-
-Usage
-
-Results
-
-Contributing
-
-License
 
 Overview
 This project uses historical stock data and sentiment analysis of news articles to predict future stock prices. The sentiment of news articles is processed using FinBERT—a pre-trained BERT model for financial sentiment analysis. These sentiment scores are then used along with historical price data to train an LSTM model to forecast stock prices.
